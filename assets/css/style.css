@@ -23,7 +23,7 @@ div.container1 {
 div.container1 p {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -33,6 +33,32 @@ div.container1 p {
 .text {
     position: absolute;
     left: 50%;
-    top: 53%;
+    top: 47%;
     transform: translate(-50%, -20%);
+}
+
+#nav {
+    text-align: right;
+    color: white;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Social Icons */
+.fab {
+    padding: 8px;
+    font-size: 17px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 56%;
+    transform: translate(-30%, -20%);
+    background: #3B5998;
+    color: white;
 }
