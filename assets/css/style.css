@@ -14,27 +14,20 @@ html {
     font-family: Arial, Helvetica, sans-serif
 }
 
-div.container1 {
-    height: 10em;
+.container1 {
+    height: 5em;
     font-size: 2.5rem;
-    font-weight: bold;
-}
-
-div.container1 p {
     margin: 0;
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
     color: white;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.text {
-    position: absolute;
-    left: 50%;
-    top: 47%;
-    transform: translate(-50%, -20%);
+.one {
+    font-weight: bold;
 }
 
 #nav {
@@ -43,8 +36,19 @@ div.container1 p {
     font-size: 12px;
 }
 
+p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
+}
+
+hr {
+    width: 50%;
+    height: 1px;
+    background-color: white;
+    border: white;
 }
 
 /* Social Icons */
@@ -55,10 +59,12 @@ a {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: 56%;
-    transform: translate(-30%, -20%);
     background: #3B5998;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .container1 {
+        top: 40%;
+    }
 }
